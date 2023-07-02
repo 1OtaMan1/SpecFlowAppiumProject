@@ -1,0 +1,19 @@
+{   
+    "CLOUD" : {
+       "momentumUser"   : "<momentum-suite-username>",
+       "momentumToken"  : "<momentum-suite-access-key>",
+       "momentumHost"   : "https://console.momentumsuite.com/gateway/wd/hub/",
+       "android" : {
+            "momentumApp": "ms://<hashed-app-id>",
+            "momentumDeviceList": [9999]
+            }  
+    },
+
+    "LOCAL": {
+        "host": "http://127.0.0.1:4723/wd/hub",
+        "android": {
+            "app": "C:\\Users\\Butcher\\source\\repos\\Mobile test project\\SpecFlowAppium\\SpecFlowAppiumProject\\Telegram_9.4.2_Apkpure.apk",
+            "deviceName": "sdk_gpphone_x86"
+        }
+    }        
+}
